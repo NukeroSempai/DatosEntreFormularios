@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="29*"/>
+        </Grid.ColumnDefinitions>
+        <Label Name="lbText" Content="" HorizontalAlignment="Left" Margin="78,149,0,0" VerticalAlignment="Top" FontSize="60" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Button Content="llamarFormulario" HorizontalAlignment="Left" Margin="157,337,0,0" VerticalAlignment="Top" Width="456" FontSize="30" Grid.ColumnSpan="2" Click="Button_Click"/>
+
     </Grid>
 </Window>
